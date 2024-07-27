@@ -1,6 +1,6 @@
 :root {
-    --gradc1: #acf;
-    --gradc2: #fff;
+    --gradc1: #000;
+    --gradc2: #013;
 }
 
 body {
@@ -10,4 +10,6 @@ body {
     var(--gradc1) 80%,
     var(--gradc2) 120%);
     text-align: center;
+    color: #fff;
+    text-shadow: #000 0px 0px 10px;
 }
