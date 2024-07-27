@@ -6,8 +6,8 @@
 body {
     background: linear-gradient(90deg,
     var(--gradc1) 0%,
-    var(--gradc2) 50%,
-    var(--gradc1) 70%,
-    var(--gradc2) 130%);
+    var(--gradc2) 40%,
+    var(--gradc1) 80%,
+    var(--gradc2) 120%);
     text-align: center;
 }
