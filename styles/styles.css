@@ -1,4 +1,13 @@
+:root {
+    --gradc1: #acf;
+    --gradc2: #fff;
+}
+
 body {
-    background: linear-gradient(90deg, #acf 0%, #fff 50%, #acf 70%, #fff 130%);
+    background: linear-gradient(90deg,
+    var(--gradc1) 0%,
+    var(--gradc2) 50%,
+    var(--gradc1) 70%,
+    var(--gradc2) 130%);
     text-align: center;
 }
